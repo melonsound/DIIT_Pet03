@@ -6,7 +6,9 @@ use includes\DbContext;
 include 'Order.php';
 include 'dbcontext.php';
 
-$conn = new DbContext("localhost","diit_crud","root","root");
+$queryOrder = "INSERT INTO orders VALUES(NULL, :fullname, :email, :message)"; 
+
+$conn = new DbContext("localhost", "diit_crud", "root", "root", $queryOrder);
 
 
 ?>

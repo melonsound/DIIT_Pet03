@@ -1,0 +1,16 @@
+nav 
+{
+    margin: 0 250px;
+    border-radius: 0 0 8px 8px;
+    background-color: #441c5f;
+}
+
+.order
+{
+    margin: 80px 0;
+}
+
+form
+{
+    width: 500px;
+}

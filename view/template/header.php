@@ -25,7 +25,7 @@
                     <a class="nav-link" href="/content/orderpage.php">Заказать</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Список заявок</a>
+                    <a class="nav-link" href="/content/listoforders.php">Список заявок</a>
                 </li>
             </ul>
         </div>

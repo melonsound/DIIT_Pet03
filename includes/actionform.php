@@ -8,7 +8,8 @@ include 'dbcontext.php';
 
 $queryOrder = "INSERT INTO orders VALUES(NULL, :fullname, :email, :message)"; 
 
-$conn = new DbContext("localhost", "diit_crud", "root", "root", $queryOrder);
+$conn = new DbContext();
+$conn->postOrders("localhost", "diit_crud", "root", "root", $queryOrder);
 
 
 ?>
